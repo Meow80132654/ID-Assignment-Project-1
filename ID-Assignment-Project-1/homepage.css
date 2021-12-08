@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top_column{
+    clear: both;
+    width:100%;
+    height:150px;
+    vertical-align: top;
+    position: relative;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: 1px
+    transparent
+    
+}
+.top_column:hover{
+    border:1px
+    
+    grey;
+    background-color: grey;
+    color:black;
+}
+.top_column a{
+    color: white;
+    text-decoration: none;
+}
+.top_column:hover a{
+    color: black;
+    text-decoration: none;
+}
+.top_column:hover a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 26px;
+}
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 14px;
+    position: relative;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+h2{
+    color: white;
+    font-size: 80px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.dropdownmenu{
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    z-index: 1;
+}
+.menu:hover .dropdownmenu{
+    display: block;
+
+}
+.dropdownmenu a{
+    margin-top: 20px;
+}
+
+.dropdownmenu a:hover{
+    background-color: transparent;
+
+}
+.dropdownmenu a:hover .dropdownmenu{
+    display: block;
+
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 90px;
+}
+.text-box p{
+    font-size: 35px;
+}
+
+
+.aboutpage{
+    color: black;
+    position: relative;
+    background-color: cadetblue;
+    height: 185%;
+    background-size: auto;
+    
+}
+
+.start{
+    width: 40%;
+    top: 50px;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: coral;
+}
+.start h1{
+    font-size: 60px;
+}
+.start p{
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.productinfo{
+    width: 80%;
+    top: 100px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: darkblue;
+}
+.productinfo h3{
+    font-size: 60px;
+    color: red;
+}
+
+.goods{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+}
+.goods div{
+
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.goods div img{
+    width: 80%;
+}
+.goods div a{
+    margin: 10px;
+    padding:10px    ;
+}
+.goods div p{
+    margin: 10px;
+    padding:5px    ;
+}
+#Necklace{
+
+    background-color: gold;
+}
+#Bracelet{
+
+    background-color: greenyellow;
+}
+#Custom{
+    background-color: royalblue;
+}
+
+
+.goods img{
+    border: 2px solid;
+}
+
+.footer{
+    display: flex;
+    background-color: #212329;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: white    ;
+}
+
+.footer-container{
+    background-color: #212329;
+    padding-bottom: 100px;
+}
+.footers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    
+}
+.footers a{
+    color: white;
+}
+.footers a:hover{
+    color: red;
+}
+.Footer-email{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.email{
+    width: 80px;
+}
+h4{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background: url("chibi/chibi_xl.jpg");
+    background-repeat: repeat;
+    position: relative;
+    
+
+}
